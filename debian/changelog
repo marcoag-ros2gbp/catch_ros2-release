@@ -1,0 +1,18 @@
+ros-rolling-catch-ros2 (0.2.0-2noble) noble; urgency=high
+
+  * Updated to Catch2 v3.4.0
+  * Add launch_catch_ros2 Python package to the launch.frontend.launch_extension group
+  * Expose launch_catch_ros2 items to frontend (XML/YAML) launch files
+  * Update documentation
+  * Contributors: Nick Morales
+
+ -- Nick Morales <ngmorales97@gmail.com>  Fri, 20 Oct 2023 00:00:00 -0000
+
+ros-rolling-catch-ros2 (0.1.0-2noble) noble; urgency=high
+
+  * Initial Release
+  * Contributors: Nick Morales
+
+ -- Nick Morales <ngmorales97@gmail.com>  Fri, 23 Jun 2023 00:00:00 -0000
+
+

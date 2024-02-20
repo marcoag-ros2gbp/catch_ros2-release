@@ -1,0 +1,12 @@
+Source: ros-rolling-catch-ros2
+Section: misc
+Priority: optional
+Maintainer: Nick Morales <ngmorales97@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-rclcpp, ros-rolling-ros2launch, ros-rolling-std-srvs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-catch-ros2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-rclcpp, ros-rolling-ros2launch, ros-rolling-std-srvs, ros-rolling-ros-workspace
+Description: Catch2 testing framework for ROS 2 unit and integration tests.
